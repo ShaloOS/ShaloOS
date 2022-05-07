@@ -58,6 +58,8 @@ else:
     print("Please hold on while we create your folders...")
     try:
         os.mkdir(f'users/{user}/Desktop')
+        os.mkdir('etc')
+        os.mkdir('tmp')
     except FileExistsError:
         pass
     with open(f'tmp/cdir', 'w') as f:
