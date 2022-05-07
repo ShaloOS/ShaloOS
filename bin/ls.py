@@ -1,7 +1,6 @@
 from genericpath import isdir
 import os,sys
 from rich import print
-
 with open('tmp/cdir','r') as f:
     cdir = f.read()
 try:

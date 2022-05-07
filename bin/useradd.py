@@ -7,6 +7,8 @@ if not user in os.listdir('users/'):
     with open(f'users/{user}/.passfile', 'w') as f:
         f.write(hashlib.sha256(password.encode()).hexdigest())
         print("You made the account called {}!".format(user))
+    with open(f'users/{user}/.dshellrc', 'w') as f:
+        f.write('theme red')
     try:
         os.mkdir(f'users/{user}/Desktop')
     except FileExistsError:
