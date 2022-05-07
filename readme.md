@@ -8,6 +8,8 @@ ShaloOS is a python operating system that is designed to be easy to use and easy
 ShaloOS is designed to be easy to use and customize.
 # How do I use ShaloOS?
 Clone the git repository and run the main.py file.
+# How to see the packages?
+Check out this [Repository](https://github.com/ShaloOS/ShaloPackages/) to see all the apps!
 # How do I get help?
 You can get help by contacting the developer. <br>
 Contact me on discord: nano20#3946 <br>
