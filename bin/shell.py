@@ -64,8 +64,8 @@ def init_prompt():
             theme = ' '.join(theme)
             theme = theme.lower()
     global prompt
-    if theme == "red":
-        prompt = f'[red]{user}[/red][bold red]@[/bold red][red]{host}[/red]'
+    if theme != "":
+        prompt = f'[{theme}]{user}[/{theme}][bold {theme}]@[/bold {theme}][{theme}]{host}[/{theme}]'
     else:
         prompt = f'{user}@{host}'
 init_prompt()

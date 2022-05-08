@@ -3,3 +3,6 @@ users/
 .session
 tmp/cdir
 etc/hostname
+.vsls.json
+graphical_bin/
+textual.log
