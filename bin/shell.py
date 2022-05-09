@@ -74,7 +74,7 @@ def init_prompt():
             theme = theme.lower()
     global prompt
     if theme != "":
-        prompt = f'[{theme}]{user}[/{theme}][bold {theme}]@[/bold {theme}][{theme}]{host}[/{theme}]#{cdir}'
+        prompt = f'[{theme}]{user}[/{theme}][bold {theme}]@[/bold {theme}][{theme}]{host}[/{theme}][bold {theme}]#[/bold {theme}][{theme}]{cdir}[/{theme}]'
     else:
         prompt = f'{user}@{host}'
 init_prompt()
