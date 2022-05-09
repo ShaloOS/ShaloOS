@@ -5,7 +5,7 @@ if os.name == "nt":
 
 if '--dev' in sys.argv:
     with open('.session','w') as f:
-        f.write('Geri')
+        f.write(os.listdir('users')[0])
     os.system(f'{prefix} bin/shell.py')
-
-os.system(f'{prefix} bin/login.py')
+else:
+    os.system(f'{prefix} bin/login.py')
