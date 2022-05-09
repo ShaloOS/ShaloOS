@@ -57,6 +57,15 @@ def init_prompt():
     f = open(f'users/{user}/.dshellrc', 'r')
     lines = f.readlines()
     f.close()
+    f = open('tmp/cdir', 'r')
+    file_text = f.read()
+    while 1:
+        if file_text.split('\\')[0] != user:
+            file_text = '\\'.join(file_text.split('\\')[1:])
+        else:
+            cdir = file_text.replace('\\', '/')
+            break
+    f.close()
     for line in lines:
         line = line.splitlines()[0]
         if line.startswith('theme '):
@@ -65,7 +74,7 @@ def init_prompt():
             theme = theme.lower()
     global prompt
     if theme != "":
-        prompt = f'[{theme}]{user}[/{theme}][bold {theme}]@[/bold {theme}][{theme}]{host}[/{theme}]'
+        prompt = f'[{theme}]{user}[/{theme}][bold {theme}]@[/bold {theme}][{theme}]{host}[/{theme}]#{cdir}'
     else:
         prompt = f'{user}@{host}'
 init_prompt()

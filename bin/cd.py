@@ -17,4 +17,3 @@ if os.path.exists(f'{cdir}'):
         f.write(f'{cdir}')
 else:
     print('Directory not found!')
-print(sys.argv[1])
