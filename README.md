@@ -1,5 +1,11 @@
 # ShaloOS
 
+<br />
+<div align="center">
+  <a href="https://github.com/ShaloOS/ShaloOS">
+    <img src="https://i.imgur.com/BFECOmM.png" alt="Logo" width="80" height="80">
+</a>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
