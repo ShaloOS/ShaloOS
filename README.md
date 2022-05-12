@@ -1,20 +1,55 @@
+<img width="90px" align="left" src="https://i.imgur.com/BFECOmM.png">
+
 # ShaloOS
-## A python operating system!
-# What can ShaloOS do?
-ShaloOS can do many features as it supports custom user made programs and its fully open source.
-# What is ShaloOS?
-ShaloOS is a python operating system that is designed to be easy to use and easy to learn.
-# Why should I use ShaloOS?
-ShaloOS is designed to be easy to use and customize.
-# How do I use ShaloOS?
-Clone the git repository and run the main.py file.
-# How to see the packages?
-Check out this [Repository](https://github.com/ShaloOS/ShaloPackages/) to see all the apps!
-# How do I get help?
-You can get help by contacting the developer. <br>
-Contact me on discord: nano20#3946 <br>
-Or in [Email](mailto:dev.cnamew@gmail.com)
-# How do I report a bug?
-You can report a bug using the issue tracker.
-# How do I contribute?
-You can contribute by creating a pull request.
+
+<br>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![GNU License][license-shield]][license-url]
+
+## Installing
+#### Requriments:
+
+- Windows or Linux (Mac is not supported but it may work)
+
+- Preferably the latest version of Python
+
+- Git
+
+First open up your terminal/command prompt and type:
+
+`git clone https://github.com/ShaloOS/ShaloOS && cd ShaloOS`
+
+after that just run the main.py file
+
+On Windows:
+```py main.py```
+
+On Linux:
+```python3 main.py```
+
+## FAQ
+
+- ### What is ShaloOS?
+
+  ShaloOS is an os created in python with many features such as an **app store** or **file management**
+
+- ### How do I report bugs?
+
+  You can report them in [issues](https://github.com/ShaloOS/ShaloOS/issues) page.
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/ShaloOS/ShaloOS?style=for-the-badge
+[contributors-url]: https://github.com/ShaloOS/ShaloOS/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ShaloOS/ShaloOS.svg?style=for-the-badge
+[forks-url]: https://github.com/ShaloOS/ShaloOS/network/members
+[stars-shield]: https://img.shields.io/github/stars/ShaloOS/ShaloOS.svg?style=for-the-badge
+[stars-url]: https://github.com/ShaloOS/ShaloOS/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/ShaloOS/ShaloOS/issues
+[license-shield]: https://img.shields.io/github/license/ShaloOS/ShaloOS.svg?style=for-the-badge
+[license-url]: https://github.com/ShaloOS/ShaloOS/blob/master/LICENSE
+[logo]:https://i.imgur.com/BFECOmM.png
