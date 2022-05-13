@@ -3,9 +3,10 @@ from re import I
 with open('tmp/cdir','r') as f:
     cdir = f.read()
 
-if sys.argv[1] == '..':
+if len(sys.argv) == 1:
+    print(cdir)
+elif '..' in sys.argv[1]:
     cdir = os.path.abspath(f'{cdir}/..')
-    
 elif sys.argv[1] == '.':
     pass
 else:
