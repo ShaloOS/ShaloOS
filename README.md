@@ -49,7 +49,7 @@ On Linux:
 [stars-shield]: https://img.shields.io/github/stars/ShaloOS/ShaloOS.svg?style=for-the-badge
 [stars-url]: https://github.com/ShaloOS/ShaloOS/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/ShaloOS/ShaloOS/issues
+[issues-url]: https://github.com/ShaloOS/ShaloOS/issues/open
 [license-shield]: https://img.shields.io/github/license/ShaloOS/ShaloOS.svg?style=for-the-badge
 [license-url]: https://github.com/ShaloOS/ShaloOS/blob/master/LICENSE
 [logo]:https://i.imgur.com/BFECOmM.png
