@@ -26,7 +26,7 @@ First open up your terminal/command prompt and type:
 after that just run the main.py file
 
 On Windows:
-```py main.py```
+```python main.py```
 
 On Linux:
 ```python3 main.py```
