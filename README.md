@@ -15,6 +15,8 @@
 
 - Windows or Linux (Mac is not supported but it may work)
 
+- The rich package from python (```pip install rich```)
+
 - Preferably the latest version of Python
 
 - Git
