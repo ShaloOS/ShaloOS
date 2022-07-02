@@ -1,3 +1,5 @@
+### THIS PROJECT IS ARCHIVED
+
 <img width="90px" align="left" src="https://i.imgur.com/BFECOmM.png">
 
 # ShaloOS
