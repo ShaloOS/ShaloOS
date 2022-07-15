@@ -1,4 +1,4 @@
-### THIS PROJECT IS ARCHIVED
+This project is taken over by Vlone2k/Soren#9324
 
 <img width="90px" align="left" src="https://i.imgur.com/BFECOmM.png">
 
